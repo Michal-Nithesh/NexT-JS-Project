@@ -28,7 +28,7 @@ export default function Home() {
       icon={ <MessageCircle className="text-slate-500" size={72} />} 
       />
     </div>
-    <PostsTable />
+    <PostsTable title="Latest Posts" />
     </>
   );
 }
